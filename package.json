@@ -1,0 +1,34 @@
+{
+  "name": "FoodFestival",
+  "version": "1.0.0",
+  "description": "",
+  "main": "assets/js/scripts.js",
+  "scripts": {
+    "webpack": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JR1994-CA/food-festival.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JR1994-CA/food-festival/issues"
+  },
+  "homepage": "https://github.com/JR1994-CA/food-festival#readme",
+  "devDependencies": {
+    "bootstrap": "^5.0.2",
+    "file-loader": "^6.2.0",
+    "webpack": "^5.42.0",
+    "webpack-bundle-analyzer": "^4.4.2",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "image-webpack-loader": "^7.0.1",
+    "install": "^0.13.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
+  }
+}
